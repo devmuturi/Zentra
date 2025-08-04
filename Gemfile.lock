@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/Shopify/erb-lint.git
+  revision: a6c41c8e1260b9b8ab2c3c3004f88d01bc88a699
+  branch: main
+  specs:
+    erb_lint (0.9.0)
+      activesupport
+      better_html (>= 2.0.1)
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop (>= 1)
+      smart_properties
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,6 +93,13 @@ GEM
     base64 (0.3.0)
     bcrypt_pbkdf (1.1.1)
     benchmark (0.4.1)
+    better_html (2.1.1)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
     bigdecimal (3.2.2)
     bindex (0.8.1)
     bootsnap (1.18.6)
@@ -277,6 +297,7 @@ GEM
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
+    smart_properties (1.17.0)
     solid_cable (3.0.11)
       actioncable (>= 7.2)
       activejob (>= 7.2)
@@ -350,6 +371,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  erb_lint!
   jbuilder
   jsbundling-rails
   kamal
@@ -358,6 +380,8 @@ DEPENDENCIES
   rails (~> 8.0.2)
   react-rails (~> 2.7.1)
   responders
+  rubocop
+  rubocop-rails
   rubocop-rails-omakase
   solid_cable
   solid_cache

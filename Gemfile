@@ -64,7 +64,8 @@ group :test do
   gem "rubocop-rails", require: false
   # For linting ERB files
   gem "erb_lint", require: false, git: "https://github.com/Shopify/erb-lint.git", branch: "main"
+  gem "pry-byebug"
 end
 
 gem "react-rails", "~> 2.7.1"
-gem "responders"
+# gem "responders"

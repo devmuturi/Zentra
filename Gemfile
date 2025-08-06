@@ -67,6 +67,6 @@ group :test do
   gem "pry-byebug"
 end
 
-gem "react-rails", "~> 2.7.1"
+gem "react-rails", "~> 3.2.1"
 # gem "responders"
 gem "data_migrate"

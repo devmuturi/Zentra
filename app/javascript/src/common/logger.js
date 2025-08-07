@@ -7,3 +7,5 @@ export const initializeLogger = () => {
     Logger.setLevel(Logger.OFF);
   }
 };
+
+export default Logger;

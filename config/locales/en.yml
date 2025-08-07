@@ -28,6 +28,8 @@
 #       enabled: "ON"
 
 en:
+  successfully_created: "Task was successfully created!"
+  generic_error: "Something went wrong. Please try again later."
   task:
     slug:
       immutable: "is immutable!"
